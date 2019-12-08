@@ -5,7 +5,7 @@ function add (a, b) {
 
 // minus
 function minus (a, b) {
-  return a - b;
+  return a + b;
 }
 
 // multiplication

@@ -4,3 +4,10 @@ var expect = 6;
 if (result !== expect) {
   throw Error(`3+3 预期值为：${expect}, 结果为：${result}`);
 }
+
+var result = minus(3, 3);
+var expect = 0;
+
+if (result !== expect) {
+  throw Error(`3-3 预期值为：${expect}, 结果为：${result}`);
+}
